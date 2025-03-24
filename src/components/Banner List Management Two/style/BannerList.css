@@ -1,0 +1,103 @@
+.banner-list-management-main{
+    /* background-color: rebeccapurple!important; */
+    background-color: #f0f1f5;
+    min-height: 100vh;
+    height: auto;
+}
+/* .banner-list-management-container{
+    background-color: aqua;
+} */
+.banner-list-header-container{
+    background-color: white;
+    min-height: 100vh;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+}
+.banner-list-items-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.textfieldContainer{
+    /* background-color: blue; */
+    overflow: hidden!important;
+    /* display: none; */
+}
+.text-field-box{
+    /* background-color: orange; */
+    animation-name: textField;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transition: 0.2s ease;
+}
+@keyframes textField {
+    0%{
+        /* right: 250px; */
+        top: -50px;
+    }
+    100%{
+        /* right: 0px; */
+        top: 0px;
+    }
+}
+.MuiInputBase-input::placeholder{
+    /* background-color: orange; */
+    font-size: 15px!important;
+}
+.input-search-icon{
+    /* background-color: white; */
+    color: #767676;
+    cursor: pointer;
+}
+.icon-container-main{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.iconContainer{
+    /* background-color: orange; */
+    color: #767676;
+    padding: 3px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.iconContainer:hover{
+    background-color: #e6e6e6!important;
+    transition: 0.3s ease;
+}
+.search-off-icon, .search-icon, 
+.FunnelSimple-icon, .FunnelSimpleX-icon,
+.ViewColumnIcon-icon, .List-icon, 
+.FullscreenExitIcon-icon, .FullscreenIcon-icon{
+    /* background: red; */
+    color: #767676;
+}
+.dropdown .view-column-dropdown{
+    /* background-color: red; */
+    top: -5px!important;
+    left: -50px!important;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px 1px #ccc
+}
+.viewColumnBtn{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center!important;
+}
+.icon-container-main .hide-all, 
+.icon-container-main .show-all{
+    /* background-color: green; */
+    color: #767676;
+    font-size: 13px;
+    border: none;
+}

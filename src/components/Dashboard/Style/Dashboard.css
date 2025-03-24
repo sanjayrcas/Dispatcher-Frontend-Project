@@ -1,0 +1,31 @@
+.dashboard-items-main{
+    background-color: #f0f1f5; 
+    height: 100vh;
+}
+.dashboard-items-container .Get-Earning-Report,
+.dashboard-items-container .Check-Payment{
+    font-size: 10px;
+    padding: 8px 5px;
+}
+.dashboard-items-header2{
+    /* background-color: chartreuse;  */
+    margin: 0px 30px;
+}
+.dashboard-items-header2 .dashboard-items-col-1{
+    background-color: white;
+    /* background-color: orange; */
+    /* width: 24%!important; */
+    width: 270px;
+    border-radius: 5px;
+}
+.dashboard-items-datas1{
+    /* background-color: cadetblue; */
+}
+.Banners-text, .Banners-count{
+    /* background-color: skyblue; */
+    font-size: 13px;
+    margin: 0;
+}
+.dashboard-items-datas-icons{
+    /* background-color: chocolate; */
+}

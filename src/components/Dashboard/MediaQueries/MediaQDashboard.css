@@ -1,0 +1,56 @@
+@media (max-width: 575.99px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 100%;
+    }
+    .dashboard-items-container .Get-Earning-Report,
+    .dashboard-items-container .Check-Payment{
+        font-size: 8px;
+        padding: 5px 5px;
+    }
+}
+@media (max-width: 659.99px) and (min-width: 576px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 250px;
+    }
+}
+@media (max-width: 767.99px) and (min-width: 660px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 280px;
+    }
+}
+@media (max-width: 866.99px) and (min-width: 768px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 160px;
+    }
+    .Banners-text, .Banners-count{
+        font-size: 11px;
+    }
+}
+@media (max-width: 991.99px) and (min-width: 867px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 190px;
+    }
+    .Banners-text, .Banners-count{
+        font-size: 11px;
+    }
+}
+@media (max-width: 1117.99px) and (min-width: 992px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 210px;
+    }
+}
+@media (max-width: 1199.99px) and (min-width: 1118px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 250px;
+    }
+}
+@media (max-width: 1399.99px) and (min-width: 1200px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 270px;
+    }
+}
+@media(min-width: 1400px){
+    .dashboard-items-header2 .dashboard-items-col-1{
+        width: 320px;
+    }
+}

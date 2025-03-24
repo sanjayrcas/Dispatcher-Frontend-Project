@@ -1,0 +1,51 @@
+.sidebar-container .sidebar-offcanvas-container .sidebar-offcanvas{
+    /* background-color: green; */
+    width: 200px;
+}
+.offcanvas-header-container{
+    /* background-color: blue; */
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.sidebar-list-icon{
+    /* background-color: red; */
+    width: 20px;
+    height: auto;
+}
+.offcanvas-header1{
+    /* background-color: red; */
+    width: 100%;
+    text-align: center;
+}
+.offcanvas-header1 .sidebarLogoImg{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+}
+.offcanvas-header2{
+    /* background-color: orange; */
+    margin-right: 5px;
+    cursor: pointer;
+}
+.sidebar-caret-icon{
+    /* background-color: red; */
+    width: 20px;
+    height: auto;
+}
+.sidebar-offcanvas .sidebar-offcanvas-body{
+    padding: 0;
+}
+.Sidebar-needHelp-img{
+    width: 60%;
+}
+.sidebar-contact-btn{
+    text-decoration: none;
+    color: #212529;
+    font-size: 13px;
+    background-color: #f2b211;
+    padding: 5px 15px;
+    border-radius: 5px;
+}

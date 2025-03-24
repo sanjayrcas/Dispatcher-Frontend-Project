@@ -1,0 +1,48 @@
+.settings-management-main{
+    background-color: #f0f1f5;
+    min-height: 100vh;
+    height: auto;
+}
+.settings-management-input-main{
+    /* background-color: aqua; */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.settings-general-information{
+    /* background-color: gray; */
+    margin: 0;
+    font-size: 13px;
+}
+.settings-management-input-main .settings-row{
+    /* background-color: red; */
+    margin: 0px 5px;
+}
+.settings-management-label{
+    /* background-color: bisque; */
+    font-size: 12px;
+}
+.settings-management-label::before{
+    content: "*";
+    color: red;
+    margin-right: 2px;
+}
+/* .settings-management-input-container{
+    background-color: chartreuse;
+} */
+.settings-management-input{
+    /* background-color: blueviolet; */
+    width: 100%;
+    border-style: none;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+.settings-btn-container{
+    /* background-color: red; */
+    border-radius: 0px;
+    border-top: 1px solid #ccc;
+}
+.settings-btn-container .settings-btn{
+    font-size: 11px;
+}
+

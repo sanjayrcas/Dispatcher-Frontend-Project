@@ -1,0 +1,29 @@
+@media (max-width: 575.99px){
+    .dispatcher-login-form-container{
+        /* background-color: orange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}
+@media (max-width: 767.99px) and (min-width: 576px){
+    .dispatcher-login-form-container{
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}
+@media (max-width: 991.99px) and (min-width: 768px){
+    .dispatcher-login-form-container{
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        width: 100%;
+        padding: 30px;
+    }
+}

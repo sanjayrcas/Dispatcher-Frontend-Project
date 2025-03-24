@@ -1,0 +1,16 @@
+.NavProfile-main-container .navbar{
+    /* background-color: red; */
+    padding: 0;
+    box-shadow: 0px 1px 5px 0px rgb(206, 205, 205);
+}
+.NavProfileUserIcon{
+    /* background-color: green; */
+    color: rgb(148, 148, 148);
+    font-size: 20px;
+}
+.navbar .userProfileDropDown{
+    /* background-color: red; */
+    top: 35px!important;
+    left: -140px!important;
+    box-shadow: 0px 0px 5px 1px #ccc;
+}

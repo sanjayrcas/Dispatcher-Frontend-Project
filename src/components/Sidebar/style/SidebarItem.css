@@ -1,0 +1,77 @@
+.sidebar-item-container{
+    /* background-color: orange; */
+    margin-top: 10px;
+    height: 360px;
+    overflow-y: scroll;
+}
+/* normal btn */
+/* .sidebar-data-three{
+    background-color: greenyellow;
+} */
+.sidebar-data-three-container{
+    /* background-color: skyblue; */
+    display: flex;
+    margin: 1px;
+}
+.sidebar-data-three-container:hover{
+    background-color: rgb(246, 247, 248);
+    transition: 0.3s ease;
+}
+.sidebar-data-three-link{
+    /* background-color: red; */
+    color: #212529;
+    width: 120px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.sidebar-data-normal-icons{
+    /* background-color: red; */
+    margin: 0px 20px;
+    padding: 10px 0px; 
+}
+
+/* accordion from hear */
+/* .sidebar-item-accordion-container{
+    background-color: yellow!important;
+} */
+.sidebar-accordion-btn{
+    /* background-color: green!important; */
+    height: 40px;
+    border: none;
+}
+.sidebar-accordion-btn:hover{
+    background-color: rgb(246, 247, 248);
+    transition: 0.3s ease;
+}
+.sidebar-items-names{
+    /* background-color: red; */
+    font-size: 12px;
+    font-weight: bold;
+}
+.sidebar-dropdown-list{
+    /* background-color: red; */
+    color: #212529;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 10px 0px; 
+}
+.accordion-button::after{
+    /* background-color: red; */
+    display: none;
+}
+.caretDownIcon{
+    position: absolute;
+    right: 10px;
+}
+.sidebar-item-accordion-collapse .sidebar-item-body{
+    /* background-color: aqua; */
+    padding: 10px 20px;
+}
+.sidebar-item-body:hover{
+    background-color: rgb(246, 247, 248);
+    transition: 0.3s ease;
+}
+
+
+

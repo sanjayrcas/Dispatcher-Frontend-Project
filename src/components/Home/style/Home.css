@@ -1,0 +1,83 @@
+.dashboard-container{
+    background-color: #f0f1f5; 
+    /* background-color: red; */
+    min-height: 100vh;
+    height: auto;
+}
+.dashboard-input-container{
+    background-color: white;
+    display: flex;
+    align-items: normal;
+    flex-direction: column;
+    width: 30%;
+    padding: 15px 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.dashboard-input-1, .dashboard-input-2{
+    padding: 0;
+    padding-left: 5px;
+    margin: 0px 0px 15px 0px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.dashboard-input-2{
+    margin: 0px 0px 0px 0px;
+}
+.dashboard-dataTime-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    gap: 15px;
+    padding: 0px 5px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.dashboard-label-container{
+    /* background-color: green; */
+    padding: 2px; 
+    width: 50%;
+}
+.chooseDate, .chooseTime, .selectWeight{
+    /* background-color: blue;  */
+    font-size: 11px;
+    font-weight: bold;
+}
+.dashboard-input-date, .dashboard-input-time{
+    color: white;
+    font-size: 10px;
+    padding: 3px 0px;
+    padding-left: 5px;
+    border: 1px solid #0d6dfc;
+    border-radius: 3px;
+}
+.dashboard-input-time{
+    font-size: 9px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    /* background-color: orange; */
+    position: absolute;
+    right: 5px;
+    font-size: 10px;
+}
+.dashboard-weight-container{
+    background-color: white;
+    /* display: flex; */
+    /* align-items: center; */
+    width: 40%;
+    gap: 15px;
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.dashboard-input-weight{
+    font-size: 10px;
+    padding: 3px 0px;
+    padding-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

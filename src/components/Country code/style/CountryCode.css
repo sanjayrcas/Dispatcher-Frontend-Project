@@ -1,0 +1,34 @@
+.counter-code-main{
+    /* background-color: red; */
+    background-color: #f0f1f5;
+    min-height: 100vh;
+    height: auto;
+}
+.counter-code-input-main{
+    /* background-color: aqua; */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.counter-code-label{
+    /* background-color: bisque; */
+    font-size: 12px;
+}
+/* .counter-code-input-container{
+    background-color: chartreuse;
+} */
+.counter-code-input{
+    /* background-color: blueviolet; */
+    width: 100%;
+    border-style: none;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+.counter-btn-container{
+    /* background-color: red; */
+    border-radius: 0px;
+    border-top: 1px solid #ccc;
+}
+.counter-btn-container .counter-code-btn{
+    font-size: 11px;
+}

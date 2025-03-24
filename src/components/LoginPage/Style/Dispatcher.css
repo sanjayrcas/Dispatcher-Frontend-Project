@@ -1,0 +1,96 @@
+/* .dispatcher-login-container{
+    background-color: aqua;
+} */
+.dispatcher-login-main{
+    /* background-color: rebeccapurple; */
+    background-color: #f0f1f5;
+    /* background-color: #f0f1f5; */
+    width: 100%;
+    max-width: 1680px;
+}
+/* .dispatcher-login-main .dispatcher-login-row{
+    background-color: yellow;
+} */
+.dispatcher-login-image-container{
+    background-color: lightblue;
+    padding: 0!important;
+    width: 100%;
+    height: 100vh;
+}
+.dispatcher-login-image-container .dispatcher-login-image{
+    /* background-color: blue; */
+    width: 100vw;
+    height: 100vh;
+    /* object-fit: fill; */
+}
+.dispatcher-login-form-container{
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh; 
+    width: 100%;
+    padding: 20px;
+}
+/* .dispatcher-login-form-container .dispatcher-login-form-main-container{
+    background-color: green;
+} */
+.dispatcher-login-form-main-container .dispatcher-login-logo-container{
+    /* background-color: red; */
+    text-align: center;
+    margin: 5px 0px;
+}
+.dispatcher-login-form-main-container .dispatcher-login-logo-img{
+    width: 80px;
+    height: auto;
+    border-radius: 3px;
+}
+.dispatcher-login-form{
+    /* background-color: #f1b58d; */
+    background-color: white;
+    border: 1px solid rgb(161, 160, 160);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px rgb(124, 123, 123);
+    padding: 20px;
+}
+.dispatcher-login-h1{
+    margin-bottom: 15px;
+}
+.dispatcher-welcome-back{
+    /* background-color: green; */
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.dispatcher-label-username, 
+.dispatcher-label-password{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.dispatcher-login-form .dispatcher-input-container{
+    /* background-color: yellow; */
+    /* width: 250px; */
+    margin-bottom: 10px;
+    width: 100%; 
+    max-width: 350px;
+}
+.dispatcher-login-form .dispatcher-span-icon-container{
+    /* background-color: rgb(96, 96, 149); */
+    padding: 10px;
+    font-size: 15px;
+}
+.dispatcher-login-form .dispatcher-login-input-username, 
+.dispatcher-login-form .dispatcher-login-input-password{
+    /* background-color: cadetblue; */
+    font-size: 11px;
+    font-weight: bold;
+}
+.dispatcher-login-form .dispatcher-signin-btn-container{
+    /* background-color: brown; */
+    text-align: end;
+}
+.dispatcher-signin-btn-container .dispatcher-signin-btn{
+    padding: 5px 10px;
+    font-size: 11px;
+}

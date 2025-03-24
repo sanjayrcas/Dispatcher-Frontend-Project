@@ -1,0 +1,66 @@
+.table-cell-column{
+    /* background-color: red!important; */
+    padding: 5px 10px 0px 10px!important;
+}
+.textfieldUnder-tableHeading-container{
+    /* background-color: cadetblue; */
+}
+.MuiInputBase-input{ 
+    padding: 0px!important;
+}
+.MuiInputBase-input::placeholder{
+    /* background-color: orange; */
+    font-size: 12px!important;
+}
+.table-body{
+    /* background-color: aqua; */
+}
+.table-body-row{
+    /* background-color: red; */
+}
+.table-body-tablecell{
+    /* background-color: yellow; */
+}
+/* 3 dots */
+.table-list-top-options {
+    /* background-color: red!important; */
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    /* padding: 0px 8px 0px 8px; */
+    padding: 0px 8px 0px 8px!important;
+    margin: 5px;
+}
+
+.table-list-top-options:hover {
+    background-color: #e6e6e6!important;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+/* first name dropdown */
+.fn-dropdown{
+    /* background-color: red!important; */
+    border: 1px solid black!important;
+    /* font-size: 11px!important; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.MuiTablePagination-actions{
+    /* background-color: red; */
+}
+.MuiTablePagination-displayedRows{
+    /* background-color: green; */
+    margin-top: 1rem!important;
+}
+.MuiTablePagination-selectLabel{
+    /* background-color: yellow; */
+    margin-top: 1rem!important;
+}
+.MuiInputBase-root{
+    /* background-color: rosybrown; */
+    cursor: pointer!important;
+    padding-right: 20px!important;
+}
+.MuiTablePagination-selectIcon{
+    /* background-color: aqua!important; */
+}
