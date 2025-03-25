@@ -1,5 +1,6 @@
 .dashboard-items-main{
-    background-color: #f0f1f5; 
+    background-color: #f0f1f5;
+    background-color: red; 
     height: 100vh;
 }
 .dashboard-items-container .Get-Earning-Report,
