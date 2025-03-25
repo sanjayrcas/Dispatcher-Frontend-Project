@@ -1,7 +1,7 @@
 @media (max-width: 575px){
     .dashboard-items-main{
-        height: 100vh;
-        max-width: 1612px;
+        height: 100%;
+        max-height: 1612px;
         padding: 20px 0px;
     }
     .dashboard-items-header2 .dashboard-items-col-1{
