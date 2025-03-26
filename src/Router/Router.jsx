@@ -28,6 +28,7 @@ export default function Router() {
     return (
         <div>
             <Routes>
+                <Route path='/' element={<Dispatcher/>} />
                 <Route path='/Login' element={<Dispatcher/>} />
                 <Route path='/Home' element={<Home/>} />
                 <Route path='/Dashboard' element={<Dashboard/>} />
